@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    <title>Yummy</title>
+    <link rel="icon" href="./image/logo.png">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <div id="loading">
+        <span class="loader d-flex justify-content-center align-items-center"></span>
+    </div>
+     <!--section one--> 
+        <div class="section1">
+            <div id="Menu" class="sidenav">
+                 <ul class=" list">
+                    <li onclick="search()" class="search py-2">Search</li>
+                    <li onclick="CategoriesData()" class="py-2">Categories</li>
+                    <li onclick="areaData()" class="py-2">Area</li>
+                    <li onclick="ingredientsData()" class="py-2">Ingredients</li>
+                    <li onclick="contact()" class="py-2">Contact Us</li>
+                </ul>  
+                  <div class="nav ">
+                    <div class="icons">
+                       <i class="fa-brands fa-facebook"></i>
+                       <i class="fa-brands fa-twitter"></i>
+                       <i class="fa-solid fa-globe"></i>
+                   </div> 
+                 <div class="text ">
+                       <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                   </div> 
+                </div> 
+            </div>
+            <div class="content d-flex flex-column position-fixed ">
+                <img src="image/logo.png" alt="logo" width="50" height="60" >
+                <span class="openNav "><i class="replaceIcon fa-solid fa-bars"></i> </span>
+                <span class="icon1 "><i class="fa-solid fa-globe"></i></span>
+                <span class="icon2 "><i class="fa-solid fa-share-nodes"></i></span>
+            </div>
+</div>
+</div>
+    <div class="container w-75 " >
+        <div class="row py-3 g-3 m-auto" id="search">        
+        </div>
+    </div>
+    <div class="container w-75 " >
+        <div class="row py-3 g-3 m-auto" id="body">     
+        </div>
+    </div>
+<script src="./js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
